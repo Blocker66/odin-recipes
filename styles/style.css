@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(182, 207, 244);
+  font-family: Arial, sans-serifs;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(38, 64, 95);
+}
+
+
+.container {
+  margin: 100px auto;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(91, 115, 151);
+  padding: 0px 50px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+.title{
+  margin: 70px auto 60px;
+  color: rgb(38, 64, 95);
+}
+
+
+.recipes li{
+  margin-bottom: 24px;
+  transition: font-size 0.15s ease-in;
+}
+
+.recipes li:hover{
+  font-size: 20px;
+}
+
+
