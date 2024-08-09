@@ -1,11 +1,15 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: rgb(182, 207, 244);
+  background-color: rgb(180, 210, 240);
   font-family: Arial, sans-serifs;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
 }
 
 a {
@@ -14,30 +18,32 @@ a {
 }
 
 
-.container {
-  margin: 100px auto;
-  width: 300px;
-  height: 400px;
+.recipe-card {
+  margin: 8rem auto;
+  border-radius: 1rem;
+  width: 30em;
+  height: 26em;
+
   background-color: rgb(91, 115, 151);
-  padding: 0px 50px;
+  padding: 0 3.125em;
   border: 1px solid black;
   text-align: center;
 }
-
+ 
 
 .title{
-  margin: 70px auto 60px;
+  margin: 4.8rem auto 3.5rem;
   color: rgb(38, 64, 95);
 }
 
 
 .recipes li{
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   transition: font-size 0.15s ease-in;
 }
 
 .recipes li:hover{
-  font-size: 20px;
+  font-size: 3em;
 }
 
 
